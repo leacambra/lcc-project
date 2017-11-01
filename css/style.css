@@ -1,0 +1,35 @@
+#mainBar {
+    border-style: solid;
+    background-color: lightgray;
+    border-color: lightgray;
+    height: 75px;
+    width: 1200px
+}
+
+.centerContentContainer {
+    display:flex; flex-direction:column;align-items: center;
+    width: 1200px;
+    border-style: solid;
+    border-color:lightgrey;
+    background-color: white;
+    
+        
+}
+
+#imageSlides {
+    height: 300px;border-style:solid;border-color:lightgrey;margin-bottom:50px
+}
+
+#welcomeBox {border-style:solid;border-color: lightgray;
+    height: 75px;margin-bottom:50px;
+}
+
+#copyBox {
+    height: 200px;border-style:solid;border-color: lightgray;margin-bottom:50px
+}
+
+#services {
+    height: 50px;width:200px;border-style:solid;border-color: lightgray;
+}
+.centerContent {width:500px;}
+.contactContainer{width:500px;}
