@@ -1,35 +1,262 @@
-#mainBar {
+.mainBar {
     border-style: solid;
-    background-color: lightgray;
     border-color: lightgray;
     height: 75px;
-    width: 1200px
+    width: 1200px;
+    margin-bottom: 75px;
+}
+
+.leftBarcontent
+}
+
+#logoMb {
+    border-style: solid;
+    border-color: black;
+    width: 100px;
+    height: 70px;
+    align-items: left;
+    float: left;
+}
+
+#logoLCC {
+    height: 65px;
+    width: 100px;
+}
+
+.rightBarLinks {
+    float: right;
+    margin-right: 10px;
+    margin-top: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: navy;
+}
+
+.rightBarLinks a {
+    text-decoration: none;
+    color: navy;
 }
 
 .centerContentContainer {
-    display:flex; flex-direction:column;align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 1200px;
+}
+
+.centerContent {
+    width: 500px;
+}
+
+#imageGrid {
+    height: 400px;
     border-style: solid;
-    border-color:lightgrey;
-    background-color: white;
-    
-        
+    border-color: lightgrey;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    width:700px
+}
+#mainPhoto {height:400px;width:700px;}
+
+#welcomeBox {
+    border-style: solid;
+    border-color: lightgray;
+    height: 80px;
+    margin-bottom: 50px;
+    margin-top: 50px
 }
 
-#imageSlides {
-    height: 300px;border-style:solid;border-color:lightgrey;margin-bottom:50px
-}
-
-#welcomeBox {border-style:solid;border-color: lightgray;
-    height: 75px;margin-bottom:50px;
+#wBanner {
+    height: 75 px;
+    width: 500px;
 }
 
 #copyBox {
-    height: 200px;border-style:solid;border-color: lightgray;margin-bottom:50px
+    height: 300px;
+    border-style: solid;
+    border-color: lightgray;
+    margin-bottom: 50px;
+    color: navy;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
 }
 
-#services {
-    height: 50px;width:200px;border-style:solid;border-color: lightgray;
+#welcomeText {
+    width: 400px;
+    height: 275px;
 }
-.centerContent {width:500px;}
-.contactContainer{width:500px;}
+
+.bottomContent {display:flex;align-items:center;}
+#services {
+    height: 75px;
+    width: 350px;
+    border-style: solid;
+    border-color: lightgray;
+    margin-bottom: 60px;align-content: center;
+
+}
+
+#srvcs {
+    height: 75px;
+    width: 100;
+}
+
+.contactContainer { border-style: solid;
+    border-color: white;
+    height: 100px;
+    width: 350px;display: flex;
+    flex-direction: row;
+    justify-content: space-around;}
+    
+ 
+
+
+ .contactUS {
+    height: 75px;
+     width: 75px;}
+
+
+
+
+/*services page*/
+
+#srvsBox {border-style: solid;
+    border-color: lightgray;
+    height: 80px;
+    margin-bottom: 50px;
+    margin-top: 50px}
+
+#oursrvcsBanner
+
+#srvsBox {border-style: solid;
+    border-color: lightgray;
+    height: 80px;
+    margin-bottom: 50px;
+    margin-top: 50px}
+#oursrvcsBanner {height: 75 px;
+    width: 500px;}
+
+#eventPlanning {
+    height: 500px;
+    width: 1200px;
+    border-style: solid;
+    border-color: lightgray;
+    margin-bottom: 50px;
+}
+#PhotoboxL {float:left;height:300px;width:500px;border-style: solid;
+    border-color: lightgray;margin-top:100px;margin-left:50px;}
+
+.RightContent {float:right;height:360px;width:400px;border-style: solid;
+    border-color: white;margin-right:50px;margin-top:100px;display:flex;flex-direction: column;align-items: center;}
+
+/*epcontent*/
+#eventImg {height:300px;width:500px;}
+#epBanner {height:50px;width:250px;border-style: solid;
+    border-color: lightgray;margin-bottom: 15px}
+#epbannerimg {height:38px;width:250px;}
+#epCopy {width:300px;height:215px;border-style: solid;
+    border-color: lightgray;color: navy;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;}
+#epRequest {height:50px;width:250px;border-style: solid;
+    border-color: lightgray;margin-top: 15px}
+#reqConsultimg {height:38px;width:250px;}
+/*MBC*/
+#mbcSrvcs {
+    height: 500px;
+    width: 1200px;
+    border-style: solid;
+    border-color: lightgray;
+    margin-bottom: 50px;
+}
+#MBCimage {height:300px;width:500px;}
+#mbcSrvcsBanner {height:50px;width:250px;border-style: solid;
+    border-color: lightgray;margin-bottom: 15px}
+#mbcbannerimg {height:45px;width:250px;}
+#mbcSrvcsCopy {width:300px;height:215px;border-style: solid;
+    border-color: lightgray;color: navy;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;}
+#mbcSrvcsRequest {height:50px;width:250px;border-style: solid;
+    border-color: lightgray;margin-top: 15px}
+
+
+/*social*/
+#socialimg {height:300px;width:500px;}
+#socialMedia {
+    height: 500px;
+    width: 1200px;
+    border-style: solid;
+    border-color: lightgray;
+    margin-bottom: 50px;
+}
+#socialMediaBanner{height:50px;width:250px;border-style: solid;
+    border-color: lightgray;margin-bottom: 15px}
+#smbannerimg {height:40px;width:250px;}
+#socialMediaCopy {width:300px;height:215px;border-style: solid;
+    border-color: lightgray;font-family: 'Josefin Sans', sans-serif;
+    text-align: center;color:navy;}
+#socialMediaRequest {height:50px;width:250px;border-style: solid;
+    border-color: lightgray;margin-top: 15px}
+
+
+/*next page*/
+
+#contactUsBannerbox {border-style: solid;
+    border-color: lightgray;
+    height: 80px;
+    margin-bottom: 50px;
+    margin-top: 50px}
+#contactBannerMain{height: 75 px;
+    width: 500px;}
+
+#contactpageMain { height: 500px;
+    width: 1200px;
+    border-style: solid;
+    border-color: lightgray;
+    margin-bottom: 50px;}
+.leftContactContent {float:left;height:350px;width:500px;border-style: solid;
+    border-color: white;margin-top:100px;margin-left:50px;display:flex;flex-direction: column;align-items: center;}
+#contactIMG {height:200px;width:300px;border-style: solid;
+    border-color: lightgray;margin-bottom: 15px;}
+#copyContactcontainer {height:150px;width:300px;border-style: solid;
+    border-color: lightgray;font-family: 'Josefin Sans', sans-serif;
+    text-align: center;color:navy;}
+#invite {height:200px;width:300px;}
+.contactFormRightContent {float:right;height:360px;width:400px;border-style: solid;
+    border-color: white;margin-right:50px;margin-top:100px;display:flex;flex-direction: column;align-items: center;}
+
+#emailForm {height:35px;width:300px;border-style: solid;
+    border-color: lightgray;font-family: 'Josefin Sans', sans-serif;
+    text-align: left;color:navy;margin-bottom: 15px;}
+#nameForm {height:35px;width:300px;border-style: solid;
+    border-color: lightgray;font-family: 'Josefin Sans', sans-serif;
+    text-align: left;color:navy;margin-bottom: 15px;}
+#phoneForm {height:35px;width:300px;border-style: solid;
+    border-color: lightgray;font-family: 'Josefin Sans', sans-serif;
+    text-align: left;color:navy;margin-bottom: 15px;}
+#messageForm {height:95px;width:300px;border-style: solid;
+    border-color: lightgray;font-family: 'Josefin Sans', sans-serif;
+    text-align: left;color:navy;margin-bottom: 15px;}
+#submitForm {height:55px;width: 200px;border-style: solid;
+    border-color: lightgray;}
+#submit {height:35px;width: 200px;}
+
+/*next page*/
+#FeatPJheader {border-style: solid;
+    border-color: lightgray;
+    height: 120px;
+    margin-bottom: 50px;
+    margin-top: 50px}
+#featpjbanner{height: 75 px;
+    width: 500px;}
+ #featpjcollageBox {height: 400px;
+    border-style: solid;
+    border-color: white;
+    margin-bottom: 50px;
+    margin-top: 50px;
+     width:700px}
+#featpjcollage {height:400px;width:700px;}
+#featuredCopy {width:700px;height:300px;border-style: solid;
+    border-color: lightgray;color: navy;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;}
