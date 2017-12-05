@@ -31,7 +31,7 @@
     color: navy;
 }
 
-.rightBarLinks a {
+.rightBarLinks  {
     text-decoration: none;
     color: navy;
 }
@@ -96,8 +96,8 @@
 }
 
 #srvcs {
-    height: 75px;
-    width: 100;
+   height: 75px;
+    width: 150;margin-left:20px;
 }
 
 .contactContainer { border-style: solid;
